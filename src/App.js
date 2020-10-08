@@ -1,26 +1,26 @@
+// App.jsx
+ 
 import React from 'react';
-import logo from './logo.svg';
+import logo from './i/logo.svg';
+import Projects from './Projects.js';  
 import './App.css';
-
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit TEST <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        
+        <div className="navigation">
+          <img src={logo} className="logo-image" alt="Logo Image" />
+          <div className="navigation-sub">
+                                          
+            <a href="/" className="item">Projects</a>
+            <a href="/" className="item">Articles</a>
+            <a href="/" className="item">About</a>
+  
+          </div>
+        </div>
+      </div>
   );
 }
-
+ 
 export default App;
