@@ -11,7 +11,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        
+        <h1>Jacques Ramphal</h1>
+
         <div className="navigation">
           <img src={logo} className="logo-image" alt="Logo Image" />
           <div className="navigation-sub">
